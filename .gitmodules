@@ -15,17 +15,18 @@
 	url = https://github.com/pulp-platform/common_cells.git
 [submodule "rtl/icache"]
 	path = rtl/icache
-	url = ../instruction_cache.git
+	url = https://github.com/bsc-loca/instruction_cache.git
 	branch = ft/cacheline_64b
 [submodule "riscv-tests"]
 	path = riscv-tests
-	url = ../riscv-tests.git
+	url = https://github.com/bsc-loca/riscv-tests.git
 [submodule "rtl/core/sargantana"]
 	path = rtl/core/sargantana
-	url = ../sargantana.git
+	url = https://github.com/AdahilMuniz/sargantana.git
+	branch = merge_inst
 [submodule "rtl/dcache"]
 	path = rtl/dcache
-	url = ../cv-hpdcache.git
+	url = https://github.com/bsc-loca/cv-hpdcache.git
 [submodule "simulator/bsc-dm"]
 	path = simulator/bsc-dm
-	url = ../bsc-dm.git
+	url = https://github.com/bsc-loca/bsc-dm.git
