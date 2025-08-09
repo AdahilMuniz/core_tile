@@ -22,7 +22,7 @@
 	url = https://github.com/bsc-loca/riscv-tests.git
 [submodule "rtl/core/sargantana"]
 	path = rtl/core/sargantana
-	url = https://github.com/AdahilMuniz/sargantana.git
+	url = git@github.com:AdahilMuniz/sargantana.git
 	branch = merge_inst
 [submodule "rtl/dcache"]
 	path = rtl/dcache
