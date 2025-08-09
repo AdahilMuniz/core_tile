@@ -19,7 +19,8 @@
 	branch = ft/cacheline_64b
 [submodule "riscv-tests"]
 	path = riscv-tests
-	url = https://github.com/bsc-loca/riscv-tests.git
+	url = git@github.com:AdahilMuniz/riscv-tests.git
+	branch = merge_inst
 [submodule "rtl/core/sargantana"]
 	path = rtl/core/sargantana
 	url = git@github.com:AdahilMuniz/sargantana.git
