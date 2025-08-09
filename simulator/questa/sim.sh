@@ -17,4 +17,4 @@ vlog $VLOG_FLAGS \
      -ccflags "$CCFLAGS" \
      -F ${BASE_DIR}/simulator/simulator.f
 
-vsim work.sim_top -ldflags "$LDFLAGS" $@ -do "run $CYCLES"
+vsim work.sim_top -ldflags "$LDFLAGS" $@
